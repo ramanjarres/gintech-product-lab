@@ -191,6 +191,21 @@ A good requirement should be:
 ## Initial Requirement Template
 
 Each requirement should be documented using the following structure:
+Requirement ID: FR-001
+Requirement type: Functional
+Description: The system should allow users to upload customer feedback data from a CSV file.
+User need: Business users need to analyze customer feedback collected from different sources.
+Business value: Enables structured analysis of customer problems.
+Priority: High
+Acceptance criteria:
+- User can upload a CSV file.
+- System validates required columns.
+- System shows an error if the file format is invalid.
+- Uploaded data becomes available for analysis.
+Source: Initial product hypothesis
+Status: Draft
+Related feature: Data upload
+Related user story: As a business user, I want to upload customer feedback data so that I can analyze recurring problems.
 
 ```text
 Requirement ID:
