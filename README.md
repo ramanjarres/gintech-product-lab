@@ -91,5 +91,5 @@ The current focus is to define the problem, document the business context, study
 
 ## Author
 
-Rafael Manjarrés  
+Rafael Manjarrés Martinez
 Digital Operations and Research professional focused on Product Operations, customer experience, data analysis, data science, AI/ML exploration, process improvement, and software development.
