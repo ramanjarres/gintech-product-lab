@@ -1,8 +1,8 @@
 # Gintech Product Lab
 
-Gintech Product Lab is a product discovery, data science, and software development repository focused on exploring how Product Management, Lean Six Sigma, requirements engineering, data analysis, digital operations, and software development can be combined to solve real business problems.
+Gintech Product Lab is a product discovery, data science, AI/ML, and software development repository focused on exploring how Product Management, Lean Six Sigma, requirements engineering, data analysis, digital operations, artificial intelligence, machine learning, and software development can be combined to solve real business problems.
 
-This project is being developed as part of a Software Analysis and Development learning path, while also serving as a practical portfolio project for Product Owner, Product Management, Product Operations, Data Science, and Data-driven Digital Operations roles.
+This project is being developed as part of a Software Analysis and Development learning path and the GCI / University of Tokyo Data Science learning experience, while also serving as a practical portfolio project for Product Owner, Product Management, Product Operations, Data Science, AI/ML, and Data-driven Digital Operations roles.
 
 ## Purpose
 
@@ -17,7 +17,8 @@ The project will not start directly with code. Instead, it will follow a structu
 5. Prioritize features and improvement opportunities
 6. Design an MVP
 7. Validate assumptions with data and feedback
-8. Build, test, and improve the solution
+8. Explore data science and machine learning opportunities
+9. Build, test, and improve the solution
 
 ## Areas of knowledge applied
 
@@ -32,6 +33,10 @@ This repository will include concepts and practices from:
 - Data Science
 - Exploratory Data Analysis
 - Business Intelligence
+- Artificial Intelligence
+- Machine Learning
+- Predictive Analytics
+- Data Science Experimentation
 - Data Analysis
 - Customer Experience
 - Voice of Customer
@@ -46,7 +51,7 @@ This repository will include concepts and practices from:
 
 Many businesses collect customer feedback, operational data, sales information, and process-related signals, but they do not always have a clear way to transform that information into insights, priorities, and business decisions.
 
-This project explores how a software and data-driven solution could help businesses identify problems, understand customer friction, prioritize improvement opportunities, and make better decisions using data science, structured analysis, and product thinking.
+This project explores how a software, data-driven, and AI/ML-supported solution could help businesses identify problems, understand customer friction, prioritize improvement opportunities, detect patterns, and make better decisions using data science, structured analysis, product thinking, and machine learning experimentation.
 
 ## Long-term vision
 
@@ -60,6 +65,10 @@ Potential directions include:
 - Digital operations monitoring solution
 - Process improvement and decision-support platform
 - Data science-based decision support tool
+- AI/ML-based decision support tool
+- Predictive analytics for business operations
+- Customer feedback classification system
+- Issue prioritization model
 
 ## Repository structure
 
@@ -72,3 +81,15 @@ data/        Sample, synthetic, or public datasets
 design/      Wireframes, mockups, diagrams, and user flows
 src/         Future source code
 assets/      Images, diagrams, and visual resources
+```
+
+## Current status
+
+Project discovery and documentation phase.
+
+The current focus is to define the problem, document the business context, study requirements engineering, explore potential datasets, and structure the product idea before moving into design, development, data science experimentation, and machine learning exploration.
+
+## Author
+
+Rafael Manjarrés  
+Digital Operations and Research professional focused on Product Operations, customer experience, data analysis, data science, AI/ML exploration, process improvement, and software development.
