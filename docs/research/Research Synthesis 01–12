@@ -1,0 +1,655 @@
+# Gintech Product Lab — Research Synthesis 01–12
+
+## Purpose
+
+This document synthesizes the twelve reference cases reviewed by
+Gintech Product Lab.
+
+Its purpose is to identify recurring problems, decision patterns,
+data requirements, implementation conditions and research gaps.
+
+The findings inform product discovery.
+
+They do not establish product-market fit, customer demand or
+a final MVP scope.
+
+## Evidence Boundaries
+
+The research combines academic studies, company descriptions and
+technology-provider case studies.
+
+Evidence quality varies between cases.
+
+Throughout this document:
+
+- Documented findings describe what the reviewed material reports.
+- Interpretations explain the relevance to Gintech.
+- Product hypotheses require customer and data validation.
+
+Reported outcomes should not automatically be treated as independently
+verified or attributable to one technology.
+
+---
+
+## 1. Research Scope
+
+| # | Case | Region | Main research contribution |
+|---|---|---|---|
+| 01 | Airbnb Message Intent | Global | Customer intent and interaction handling |
+| 02 | Ricoh Call Center Operations | Global | Remote resolution versus technician dispatch |
+| 03 | Nestlé Demand Forecasting | Global / LATAM | Demand and planning |
+| 04 | SENER Industrial Anomaly Detection | Global | Equipment anomalies |
+| 05 | AI4Time Predictive Maintenance | Colombia | Maintenance records and asset prioritization |
+| 06 | Megatiendas Demand Forecasting | Colombia | Store demand and inventory planning |
+| 07 | Vanti PQRS Sentiment Analysis | Colombia | Customer feedback and issue identification |
+| 08 | Héctor Ocaña Logistics Optimization | Peru | Demand, capacity and logistics planning |
+| 09 | Crece Más | Peru / Chile / Colombia | Small-business digitalization and channel integration |
+| 10 | TrackApp — research pseudonym | Greece | Analytics informing product adaptation |
+| 11 | Maderkit | Colombia | Reporting integration and information access |
+| 12 | Alico | Colombia | Reported inventory improvement and production sequencing |
+
+The cases cover four intelligence areas:
+
+- Customer Intelligence
+- Operations Intelligence
+- Demand Intelligence
+- Industrial Intelligence
+
+These are solution areas, not customer segments.
+
+---
+
+## 2. Recurring Business Pattern
+
+A useful working pattern is:
+
+Business problem → Data → Analysis → Business context →
+Decision → Action → Outcome measurement.
+
+The cases support investigating this relationship.
+
+However, not every case documents every step or measures the final
+business outcome.
+
+Gintech must verify where this connection breaks down for a
+specific customer.
+
+---
+
+## 3. Existing Data Is an Opportunity, Not a Guarantee
+
+The first eight cases suggested that operational records can become
+inputs for useful analysis.
+
+The final cases qualify that thesis:
+
+- Crece Más connects intelligence with operational digitalization.
+- Maderkit addresses fragmented reporting and access.
+- Alico describes an integrated operational foundation.
+
+Gintech should distinguish:
+
+1. Existing usable records
+2. Existing records requiring preparation
+3. Activities that are not consistently recorded
+
+Having data does not establish readiness for a particular decision.
+
+---
+
+## 4. Working Value Proposition
+
+> Gintech helps organizations identify and improve recurring business
+> decisions using available data, practical analysis and measurable
+> operational feedback.
+
+This is a positioning hypothesis.
+
+It requires evidence about the customer, decision, cost of the problem,
+delivery effort and willingness to pay.
+
+---
+
+## 5. Find the Decision Point
+
+| Area | Example decision to investigate |
+|---|---|
+| Customer | Which recurring customer issue needs attention first? |
+| Support operations | Can an incident be handled remotely? |
+| Demand | Which products require replenishment attention? |
+| Logistics | How should capacity and resources be allocated? |
+| Maintenance | Which asset should receive attention and when? |
+| Manufacturing | In what sequence should jobs run? |
+
+These examples are candidate decisions.
+
+They do not represent a commitment to build all corresponding solutions.
+
+For each candidate, identify:
+
+- Decision owner
+- Frequency
+- Current process
+- Constraints
+- Available alternatives
+- Cost of a poor decision
+- Observable outcome
+
+---
+
+## 6. Prediction and Decision Are Different Outputs
+
+A forecast does not directly specify a purchase.
+
+A risk score does not directly specify a maintenance action.
+
+A sentiment classification does not directly establish business priority.
+
+A useful recommendation requires context such as:
+
+- Current inventory
+- Lead times
+- Available resources
+- Service targets
+- Costs
+- Operational constraints
+
+Gintech should investigate what additional information is necessary
+to turn an analytical result into a feasible action.
+
+---
+
+## 7. Interface, Information and Outcome
+
+A dashboard may be a useful delivery mechanism.
+
+Its business value depends on whether it provides relevant information
+and supports action.
+
+Maderkit's provider describes improved reporting availability and access.
+That does not establish which decisions changed or their economic impact.
+
+Gintech should measure separately:
+
+1. Information availability
+2. Actual use
+3. Decision change
+4. Operational action
+5. Business outcome
+
+---
+
+## 8. Analytical Method Selection
+
+Begin with the business decision and available data.
+
+Select the simplest method sufficient to test the value hypothesis.
+
+Possible methods include:
+
+- Structured queries
+- Descriptive analysis
+- Business rules
+- Statistical models
+- Forecasting
+- Optimization
+- Machine learning
+
+AI is a possible implementation choice.
+
+It is not evidence that the business problem is valuable or that
+the proposed solution is appropriate.
+
+---
+
+## 9. Conceptual Decision-Support Capabilities
+
+Potential capabilities include:
+
+| Capability | Purpose |
+|---|---|
+| Diagnose | Understand the problem and current process |
+| Assess readiness | Determine whether available data supports the decision |
+| Analyze | Identify relevant patterns or risks |
+| Assess impact | Explain why a signal matters |
+| Evaluate alternatives | Compare feasible responses |
+| Recommend | Support selection of an action |
+| Review | Record human judgment |
+| Measure | Evaluate operational and economic results |
+
+This is a conceptual framework.
+
+It is not a validated product architecture or implementation backlog.
+
+---
+
+## 10. Customer Intelligence
+
+Relevant cases: Airbnb and Vanti.
+
+Potential inputs include messages, support records, PQRS, surveys
+and other customer feedback.
+
+The research direction is connecting customer signals to recurring
+problems, affected customers, priority and response.
+
+Open questions include:
+
+- Can issues be identified reliably?
+- Who owns the response?
+- What makes prioritization useful?
+- What outcome improves?
+- Why would a buyer choose Gintech over existing tools?
+
+---
+
+## 11. Demand Intelligence
+
+Relevant cases: Nestlé and Megatiendas.
+
+Crece Más and Alico provide additional context about inventory
+and operational information.
+
+Potential inputs include sales, stock, purchases, lead times,
+promotions and product records.
+
+Candidate decisions include replenishment, stock policies and allocation.
+
+Important constraints include:
+
+- Sales may understate demand during stockouts.
+- Inventory records may be inaccurate.
+- New products may lack history.
+- Purchasing rules may limit feasible actions.
+
+Forecast accuracy and inventory outcomes require separate measurement.
+
+---
+
+## 12. Industrial Intelligence
+
+Relevant cases: SENER and AI4Time.
+
+Potential inputs include telemetry, work orders, inspections,
+failure records and maintenance history.
+
+The initial synthesis identified a useful distinction:
+
+Some industrial use cases may use existing maintenance records
+rather than requiring new sensor infrastructure.
+
+This does not establish that such records will be sufficient for
+every asset or failure mode.
+
+Domain expertise, access and the consequences of incorrect
+recommendations remain important selection factors.
+
+---
+
+## 13. Operations Intelligence
+
+Relevant cases: Ricoh and Héctor Ocaña.
+
+TrackApp and Alico contribute additional decision and planning patterns.
+
+Candidate problems involve incident handling, capacity allocation,
+production planning and resource prioritization.
+
+The main scalability question is:
+
+Can the same decision problem be addressed across customers
+without extensive customization?
+
+Gintech should investigate a repeatable decision before pursuing
+a broad operations platform.
+
+---
+
+## 14. Optimization and Operational Constraints
+
+Optimization introduces a distinct question:
+
+Which feasible action best satisfies the business objective?
+
+Required inputs may include:
+
+- Capacity
+- Availability
+- Deadlines
+- Setup requirements
+- Lead times
+- Service constraints
+
+The Alico material describes a specialized sequencing algorithm
+connected to ERP information.
+
+It should not be assumed that this algorithm caused the reported
+inventory reduction.
+
+---
+
+## 15. Data Quality and Data Readiness
+
+Data quality concerns fitness for the intended use.
+
+Data readiness also includes:
+
+- Access
+- Coverage
+- History
+- Refresh frequency
+- Definitions
+- Integration
+- Ownership
+- Decision relevance
+
+Maderkit supports investigating reporting integration and accessibility.
+
+It does not independently validate a formal data-quality assessment
+or demonstrate demand for a standalone readiness product.
+
+---
+
+## 16. Potential Diagnostic Entry Service
+
+A proposed Gintech diagnostic could:
+
+1. Identify one recurring decision.
+2. Map the current process.
+3. Establish the cost or consequence of the problem.
+4. Inspect available public, synthetic or anonymized records.
+5. Identify readiness gaps.
+6. Define a limited experiment.
+7. Recommend proceeding, revising or stopping.
+
+The diagnostic must have a useful outcome even when a larger
+implementation is not justified.
+
+Whether customers would pay for this service remains unknown.
+
+---
+
+## 17. Human Responsibility
+
+Gintech should explicitly identify who reviews and acts on an output.
+
+A recommendation needs:
+
+- An accountable owner
+- Feasible alternatives
+- An explanation
+- Known limitations
+- A review mechanism
+
+TrackApp primarily documents team decisions informed by analytics.
+
+It should not be interpreted as proof of autonomous business
+decision-making.
+
+---
+
+## 18. Technical, Adoption and Business Metrics
+
+| Measurement level | Example |
+|---|---|
+| Technical | Forecast error or classification quality |
+| Adoption | Recommendations reviewed |
+| Action | Purchasing decisions changed |
+| Operational | Stockouts or resolution time |
+| Economic | Verified recurring savings |
+
+Success at one level does not establish success at the next.
+
+The primary business outcome should be agreed before a pilot begins.
+
+---
+
+## 19. Economic Value Measurement
+
+Alico's provider reports a 50% inventory reduction using a statistical
+model developed from 18 months of ERP information.
+
+The public material does not disclose enough detail to independently
+calculate ROI.
+
+For Gintech pilots, distinguish:
+
+- Released working capital
+- Recurring savings
+- Incremental margin
+- One-time implementation cost
+- Ongoing delivery cost
+
+Do not count the same benefit twice.
+
+Inventory reductions must also be evaluated against service and
+production outcomes.
+
+---
+
+## 20. Shared Capabilities and Product Scope
+
+Future solutions might share ingestion, readiness checks,
+analysis, monitoring and outcome measurement.
+
+That possibility does not justify building a multi-domain platform now.
+
+The first implementation should include only the capabilities needed
+to test one customer decision.
+
+Reusable components should follow demonstrated repetition.
+
+---
+
+## 21. Main Strategic Risks
+
+- Building before obtaining customer evidence
+- Confusing technology capability with demand
+- Selecting a segment without customer access
+- Treating provider-reported results as causal proof
+- Overestimating data readiness
+- Underestimating implementation and support effort
+- Creating excessive customization
+- Measuring activity instead of business value
+- Expanding scope before validating the initial decision
+
+---
+
+## 22. What Cases 09–12 Added
+
+| Case | Contribution | What remains unanswered |
+|---|---|---|
+| Crece Más | Operational tools and intelligence can be offered together | Buyer, pricing, adoption and verified impact |
+| TrackApp | Analytical signals can inform product changes | Transferability and quantified economic impact |
+| Maderkit | Integration and access can precede more advanced analysis | Decision outcomes and standalone diagnostic demand |
+| Alico | Operational outcomes can provide an economic measurement direction | Baseline, attribution, costs and verified ROI |
+
+The final cycle narrowed research questions.
+
+It did not fully resolve the original uncertainties about recommendation
+products, readiness monetization or ROI.
+
+---
+
+## 23. Remaining Market Unknowns
+
+The twelve cases do not establish:
+
+- The best initial Colombian segment
+- The most severe accessible customer problem
+- Willingness to pay
+- Customer acquisition cost
+- Sales-cycle length
+- Access to usable data
+- Trust in recommendations
+- Sustainable differentiation
+- Repeatable implementation
+- Gintech's expected profitability
+
+These require direct validation.
+
+---
+
+## 24. Evidence Framework
+
+| Level | Evidence |
+|---|---|
+| 1 — Assumption | An untested belief |
+| 2 — Secondary | External research and case studies |
+| 3 — Customer | Direct accounts of problems and current practices |
+| 4 — Data | Quantitative investigation using customer records |
+| 5 — Behavioral | Commitment of time, data or pilot participation |
+| 6 — Commercial | Payment for a defined service or solution |
+
+This is a working framework, not a universal ranking.
+
+Payment is evidence of demand.
+It does not establish retention, repeatability or profitability.
+
+---
+
+## 25. Current Research Stage
+
+Gintech has completed a twelve-case secondary research cycle.
+
+The next objective is direct customer evidence, followed where feasible
+by data and behavioral evidence.
+
+External implementation success does not validate Gintech's offer.
+
+---
+
+## 26. Proposed Initial Discovery Segment
+
+Current proposal:
+
+Small and medium-sized B2B distributors in Barranquilla and Atlántico
+with structured sales, inventory and purchasing records.
+
+Initial decision to investigate:
+
+> Which products require replenishment attention before the next
+> purchasing cycle?
+
+Potential participants:
+
+- Owner or general manager
+- Purchasing or inventory manager
+- Operations manager
+
+This is a provisional proposal.
+
+It has not yet been validated through interviews, customer access,
+data inspection or payment.
+
+Other candidates include customer support operations, retailers
+and industrial manufacturers.
+
+---
+
+## 27. Segment Selection Conditions
+
+Before adopting the proposal:
+
+1. Compare at least three customer segments.
+2. Document the selection criteria.
+3. Evaluate practical access to potential customers.
+4. Identify the decision owner and likely budget owner.
+5. Record assumptions and reasons to reconsider.
+6. Link the selection to the problem statement and business context.
+
+A discovery segment can be selected before its problem is validated.
+
+The selection must remain revisable when evidence contradicts it.
+
+---
+
+## 28. Revised Working Thesis
+
+> Some businesses generate operational records that could support
+> better decisions, but lack the combination of usable data,
+> analysis, context and execution needed to realize that value.
+
+Gintech may operate in that gap.
+
+The gap must be demonstrated for a specific customer and decision.
+
+---
+
+## 29. Next Research Actions
+
+1. Update the Opportunity Evaluation Matrix.
+2. Adopt and document an initial discovery segment.
+3. Update the problem statement and business context.
+4. Identify potential interview participants.
+5. Investigate current decisions and workarounds.
+6. Evaluate accessible datasets.
+7. Define one measurable value hypothesis.
+8. Make a pilot go/no-go decision.
+9. Define MVP scope only when the evidence supports it.
+
+The immediate priority is obtaining evidence that can change
+the proposed direction.
+
+---
+
+## 30. Status
+
+| Workstream | Status |
+|---|---|
+| Reference cases 01–12 | Documented |
+| Cross-case synthesis | Updated |
+| Regional secondary evidence | Reviewed; market validation remains pending |
+| Initial segment | Proposed; adoption and documentation pending |
+| Customer discovery | Pending |
+| Customer data validation | Pending |
+| Pilot value hypothesis | Pending |
+| MVP definition | Pending |
+
+---
+
+## Source Notes
+
+Cases 01–08 are summarized from the existing Gintech case-study
+documentation and the preceding synthesis.
+
+Their original references and limitations should remain attached
+to the individual case files.
+
+Additional sources for cases 09–12:
+
+### Crece Más
+
+Official product website:
+https://www.crecemas.com/
+
+PUCP project description:
+https://investigacion.pucp.edu.pe/noticias-y-eventos/crece-mas-solucion-tecnologica-para-las-mypes/
+
+AWS case study:
+https://aws.amazon.com/jp/solutions/case-studies/crece-mas-facele/
+
+### TrackApp
+
+Zamani, E. D., Griva, A., & Conboy, K. (2022).
+Using Business Analytics for SME Business Model Transformation
+under Pandemic Time Pressure.
+
+https://doi.org/10.1007/s10796-022-10255-8
+
+TrackApp is a confidentiality pseudonym.
+
+### Maderkit
+
+CepoBIA — implementation-provider case study:
+https://www.cepobia.com/caso-de-exito-maderkit/
+
+### Alico
+
+TCP — technology-partner case study:
+https://www.tcpamericas.com/es/case-studies/Alico-data-driven-growth
+
+TCP — complementary production-sequencing description:
+https://www.tcpamericas.com/es/blog/the-airport-analogy
+
+Provider publications are not independent corroboration.
